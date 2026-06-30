@@ -2,6 +2,8 @@
 
 A small, virtualized JSON viewer for React apps that need the useful parts of `react-json-view` without the old dependency weight.
 
+![react-json-glimpse demo screenshot](docs/demo-screenshot.jpg)
+
 ## Goals
 
 - TypeScript-first API
@@ -69,4 +71,5 @@ pnpm install
 pnpm test
 pnpm typecheck
 pnpm build
+pnpm demo
 ```

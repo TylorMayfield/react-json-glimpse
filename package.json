@@ -19,6 +19,8 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --sourcemap --clean",
+    "demo": "vite --host 127.0.0.1",
+    "demo:build": "vite build",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --config vitest.config.ts"
   },
@@ -34,10 +36,12 @@
     "react-dom": ">=18.2.0 || >=19.0.0"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
+    "vite": "^7.0.0",
     "vitest": "^3.2.4"
   }
 }
